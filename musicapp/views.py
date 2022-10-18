@@ -4,4 +4,4 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def index(request):
-    return HttpResponse("Hello, this is my first django app!")
+    return HttpResponse("<h2>Hello, Welcome to my zuri musicapp project!</h2><br>Enjoy your cool music on the go")
